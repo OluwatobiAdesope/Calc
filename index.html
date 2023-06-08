@@ -29,38 +29,111 @@
       <div>
 
         <div class="buttons">
+          <!--========== All clear ==========-->
           <button class="clear" value="AC" onclick="ALL_CLEAR()">AC</button>
+
+          <!--========== One Figure Delete ==========-->
           <button class="delete" value="DEL" onclick="DELETE()">DEL</button>
+
+          <!--========== Decimal ==========-->
           <button class="decimal" value="." onclick="display.value += '.'">.</button>
+
+          <!--========== Division ==========-->
           <button class="division" onclick="display.value += '/'">/</button>
+
+          <!--========== Power ==========-->
+          <button class="power" value="^" onclick="POWER()">^</button>
+
+          <!--========== modulo ==========-->
+          <button class="modulo" value="%" onclick="MODULO()">%</button>
         </div>
 
+
+
         <div class="buttons">
+          <!--========== Seven ==========-->
           <button class="seven" onclick="display.value += 7">7</button>
+
+          <!--========== Eight ==========-->
           <button class="eight" onclick="display.value += 8">8</button>
+
+          <!--========== Nine ==========-->
           <button class="nine" onclick="display.value += 9">9</button>
+
+          <!--========== Multiply ==========-->
           <button class="multiply" onclick="display.value += '*'">x</button>
+
+          <!--========== Cube Root ==========-->
+          <button class="cubeRoot" value="&#8731" onclick="CUBEROOT()">&#8731</button>
+
+          <!--========== Square Root ==========-->
+          <button class="squareRoot" value="&#8730" onclick="SQUAREROOT()">&#8730</button>
         </div>
 
+
+
         <div class="buttons">
+          <!--========== FFour ==========-->
           <button class="four" onclick="display.value += 4">4</button>
+
+          <!--========== Five ==========-->
           <button class="five" onclick="display.value += 5">5</button>
+
+          <!--========== Six ==========-->
           <button class="six" onclick="display.value += 6">6</button>
+
+          <!--========== Subtract ==========-->
           <button class="subtract" onclick="display.value += '-'">-</button>
+
+          <!--========== Factorial ==========-->
+          <button class="factorial" value="x!" onclick="FACTORIAL()">x!</button>
+
+          <!--========== Bitwise AND ==========-->
+          <button class="bitwiseAnd" value="&" onclick="display.value+='&'">&</button>
         </div>
+
+
 
         <div class="buttons">
           <button class="one" onclick="display.value += 1">1</button>
+
+          <!--========== Two ==========-->
           <button class="two" onclick="display.value += 2">2</button>
+
+          <!--========== Three ==========-->
           <button class="three" onclick="display.value += 3">3</button>
+
+          <!--========== Addition ==========-->
           <button class="addition" onclick="display.value += '+'">+</button>
+
+          <!--========== Bitwise OR ==========-->
+          <button class="" value="|" onclick="display.value+='|'">|</button>
+
+          <!--========== Bitwise NOT ==========-->
+          <button class="" value="~" onclick="display.value+='~'">~</button>
         </div>
 
+
+
         <div class="buttons">
+          <!--========== Double Zero ==========-->
           <button class="double Zero" value="00" onclick="display.value += '00'">00</button>
+
+          <!--========== Zero ==========-->
           <button class="zero" onclick="display.value += 0">0</button>
-          <button class="delete">del</button>
+
+          <!--========== Empty Button ==========-->
+          <button class=""></button>
+
+          <!--========== Equal  To ==========-->
           <button class="equal" value="=" onclick="EQUAL()">=</button>
+
+          <!--========== Bitwise Right Shift ==========-->
+          <button class="bitwiseRightShift" value=">>" onclick="display.value+='>>'"> >> </button>
+
+          <!--========== Bitwise Left Shift ==========-->
+          <button class="bitwiseLeftShift" value="<<" onclick="display.value+='<<'">
+            << </button>
         </div>
 
       </div>
@@ -70,7 +143,7 @@
   </div>
 
 
-  <!-- JavaScript -->
+  <!--========== JavaScript ==========-->
   <script src="/script.js"></script>
 </body>
 
