@@ -28,6 +28,13 @@ const EQUAL = () => {
 
 }
 
+const CUBEROOT=()=>{
+  display.value=display.value ** (1/3)
+}
+const SQUAREROOT=()=>{
+  display.value=display.value ** (1/2)
+}
+
 
 
 // Bitwise AND, OR, NOT =====>>>>>
